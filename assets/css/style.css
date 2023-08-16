@@ -6,6 +6,9 @@ html {
     box-sizing: inherit;
 }
 
+.nombre-sitio {
+    margin: 50px 0 50px 0;
+}
 .nombre-sitio span {
     color: #037bc0;
 }
