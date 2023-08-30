@@ -45,4 +45,8 @@ a {
     background-size: cover;
 }
 
+/******************************************** Categorias ********************************************/
+.listado-categorias {
+    display: grid;
+}
 
