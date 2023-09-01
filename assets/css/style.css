@@ -18,6 +18,11 @@ a {
     margin: 0 auto;
 }
 
+img {
+    max-width: 100%;
+    display: block; /*Elimina el espacio en blanco que tienen las imagenes y los obejtos siguientes*/
+}
+
 /***************************************--- Header y Navegacion ---*******************************/
 .nombre-sitio {
     margin: 50px 0;
@@ -46,7 +51,26 @@ a {
 }
 
 /******************************************** Categorias ********************************************/
+.categorias h2 {
+    text-align: center;
+}
+
+.categoria a {
+    text-align: center;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.categoria a:hover {
+    background-color: #037bc0;
+    color: #fff;
+    border-bottom-right-radius: 10px;
+}
+
 .listado-categorias {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
