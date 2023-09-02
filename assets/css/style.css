@@ -1,6 +1,7 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
     box-sizing: border-box;
+    font-size: 62.5%; /*Convierte los pixeles en rem ( 10px === 1rem)*/
 }
 
 *, *:before, *:after {
@@ -9,6 +10,7 @@ html {
 
 body {
     font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
 }
 
 /***********************************--- Globales ---*******************************************/
@@ -24,7 +26,7 @@ a {
 }
 
 .contenedor {
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
 }
 
@@ -35,8 +37,9 @@ img {
 
 /***************************************--- Header y Navegacion ---*******************************/
 .nombre-sitio {
-    margin: 50px 0;
+    margin: 5rem 0;
     text-align: center;
+    font-size: 4rem;
 }
 
 .nombre-sitio span {
@@ -44,18 +47,18 @@ img {
 }
 
 .contenedor-navegacion {
-    border-top: 1px solid #e1e1e1;
+    border-top: .1rem solid #e1e1e1;
 }
 
 .nav-principal {
-    padding: 20px 0;
+    padding: 2rem 0;
     display: flex;
     justify-content: space-between;
 }
 
 .hero {
     background-image: url(../img/principal.jpg);
-    height: 550px;
+    height: 55rem;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -68,19 +71,19 @@ img {
 .categoria a {
     text-align: center;
     display: block;
-    padding: 20px;
-    font-size: 20px;
+    padding: 2rem;
+    font-size: 2rem;
 }
 
 .categoria a:hover {
     background-color: #037bc0;
     color: #fff;
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 1rem;
 }
 
 .listado-categorias {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 2rem;
 }
 
