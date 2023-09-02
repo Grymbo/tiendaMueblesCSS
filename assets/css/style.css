@@ -3,11 +3,9 @@ html {
     box-sizing: border-box;
     font-size: 62.5%; /*Convierte los pixeles en rem ( 10px === 1rem)*/
 }
-
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
@@ -34,12 +32,10 @@ a {
     text-decoration: none;
     color: #000;
 }
-
 .contenedor {
     max-width: 120rem;
     margin: 0 auto;
 }
-
 img {
     max-width: 100%;
     display: block; /*Elimina el espacio en blanco que tienen las imagenes y los obejtos siguientes*/
@@ -50,21 +46,17 @@ img {
     margin-top: 5rem;
     text-align: center;
 }
-
 .nombre-sitio span {
     color: #037bc0;
 }
-
 .contenedor-navegacion {
     border-top: .1rem solid #e1e1e1;
 }
-
 .nav-principal {
     padding: 2rem 0;
     display: flex;
     justify-content: space-between;
 }
-
 .hero {
     background-image: url(../img/principal.jpg);
     height: 55rem;
@@ -77,27 +69,31 @@ img {
 .categorias {
     margin-top: 5rem;
 }
-
 .categorias h2 {
     text-align: center;
 }
-
 .categoria a {
     text-align: center;
     display: block;
     padding: 2rem;
     font-size: 2rem;
 }
-
 .categoria a:hover {
     background-color: #037bc0;
     color: #fff;
     border-bottom-right-radius: 1rem;
 }
-
 .listado-categorias {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
+/*********************************Bloque Nosotros *****************************************/
+.sobre-nosotros {
+    background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
+    padding: 10rem 0;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 100%, 120rem;
+}
