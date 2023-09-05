@@ -41,6 +41,20 @@ img {
     display: block; /*Elimina el espacio en blanco que tienen las imagenes y los obejtos siguientes*/
 }
 
+/****************************************** Botones *****************************************/
+.btn {
+    background-color: #8cbc00;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    transition: background-color .3s ease-out;
+}
+.btn:hover {
+    background-color: #769c02;
+}
+
 /****************************************** Utilidades **************************************/
 .text-center {
     text-align: center;
@@ -119,6 +133,7 @@ img {
 .texto-producto {
     text-align: center;
     color: #fff;
+    padding: 5rem;
 }
 .texto-producto .precio {
     font-size: 2.8rem;
