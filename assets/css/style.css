@@ -154,6 +154,12 @@ img {
     grid-column-start: 4;
     grid-column-end: 7;
 }
+.producto:nth-child(2) img,
+.producto:nth-child(3) img {
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+}
 .producto:nth-child(4) {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -180,4 +186,16 @@ img {
 }
 .texto-producto p {
     margin: 0 0 .5rem 0;
+}
+
+/********************************************* Footer ***********************************/
+.pie-de-pagina {
+    border-top: solid 1px #e1e1e1;
+    margin-top: 5rem;
+    padding-top: 5rem;
+}
+.seciones-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 }
