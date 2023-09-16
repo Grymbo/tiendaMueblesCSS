@@ -257,7 +257,7 @@ img {
     margin: 0 auto;
 }
 
-/*************************************** Gleria ******************************************/
+/*************************************** Galeria ******************************************/
 .galeria {
     list-style: none;
     padding: 0;
@@ -270,4 +270,31 @@ img {
     height: 40rem;
     width: 40rem;
     object-fit: cover;
+}
+
+/****************************************** Formulario *******************************/
+.formulario {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+.formulario fieldset {
+    border: 0.1rem solid #000;
+    margin-bottom: 2rem;
+}
+.formulario legend {
+    background-color: #005485;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.campo label {
+    flex-basis: 10rem;
 }
