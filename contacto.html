@@ -78,11 +78,23 @@
                 <legend>Informacion Extra</legend>
                 <div class="campo">
                     <label for="cliente">Cliente</label>
-                    <input type="radio" name="Tipo" id="cliente">
+                    <input type="radio" name="Tipo" id="cliente" value="cliente">
                 </div>
                 <div class="campo">
                     <label for="provedor">Proveedor</label>
-                    <input type="radio" name="Tipo" id="proveedor">
+                    <input type="radio" name="Tipo" id="proveedor" value="provedor">
+                </div>
+                <div class="campo">
+                    <label for="categoria">Categoria de Interes</label>
+                    <input type="text" list="categorias" name="categorias">
+                    <datalist id="categorias">
+                        <option value="Cocina">
+                        <option value="Exterior">
+                        <option value="Interior">
+                        <option value="Recamaras">
+                        <option value="Oficina">
+                        <option value="Television">
+                    </datalist>
                 </div>
             </fieldset>
         </form>
